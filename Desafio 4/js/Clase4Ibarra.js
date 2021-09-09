@@ -1,4 +1,4 @@
-function consumoAlcohol(precio,cuotas){
+function precioCuotas(precio,cuotas){
     if (cuotas === 0) {
         console.log("usted no puede elegir esa cantidad de cuotas, tiene que ser mayor a 0")
         return;
@@ -15,7 +15,7 @@ let PrecioProd= parseInt(prompt('Cuanto sale el producto que compro?'));
 let cantCuotas= parseInt(prompt('En cuantas cuotas quiere pagar el producto?'));
 
 
-let precioAPagar= consumoAlcohol(PrecioProd,cantCuotas);
+let precioAPagar= precioCuotas(PrecioProd,cantCuotas);
 
 if ( precioAPagar !== undefined ){
 console.log("Usted Pagara " + precioAPagar + " por mes");

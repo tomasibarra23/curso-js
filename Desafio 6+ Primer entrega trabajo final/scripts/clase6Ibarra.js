@@ -218,3 +218,18 @@ if (custResponse5 === "si"){
 }
 
 }
+
+
+function ordenarCarrito() {
+  
+  //  cervezaAgregada.sort(function(a, b){return a.precio - b.precio});
+  array.sort(function(a, b){return a.precio - b.precio});
+    //ginAgregado.sort(function(a, b){return a.precio - b.precio});
+
+    mostrarBebidasOrdenadas();
+  }
+
+  function mostrarBebidasOrdenadas() {
+
+    console.log(array);
+  }
